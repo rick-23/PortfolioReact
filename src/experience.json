@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Amazon",
+        "designation": "Software Development Engineer",
+        "location": "Toronto, Ontario",
+        "duration": "1 year and 2 months"
+    },
+    {
+        "name": "Hexagon",
+        "designation": "Senior Software Analyst and Scrum Master",
+        "location": "Hyderabad, India",
+        "duration": "2 years and 8 months"
+    },
+    {
+        "name": "Tech Mahindra",
+        "designation": "Associate Software Engineer",
+        "location": "Hyderabad & Chennai, India",
+        "duration": "2 years and 6 months"
+    },
+    {
+        "name": "Hindustan Petroleum Corporation Limited",
+        "designation": "Computer Networking Intern",
+        "location": "Hyderabad, India",
+        "duration": "3 months"
+    }
+]
