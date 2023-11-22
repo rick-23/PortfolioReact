@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Vision and Image processing module in a Hostile Environment Navigation Robot",
+    "desc": "Hostile Environment Navigation Robot is intended to be used on emergency and endangering locations for quick visualization, situation awareness and decision making. Designing and developing the vision module was my primary responsibility in group project pursued at the University of Ottawa. Implemented features such as Obstacle detection and Maneuvering, Object Detection using customized pre-trained ML/DL models, Camera Calibration and distance calculation etc.",
+    "technologies": "RaspberryPi (Compute), OpenCV(Framework) and Python (Programming Language) "
+  },
+  {
+    "title": "Deep Learning based MRI segementation to detect tumors",
+    "desc": "Incorporated Image Processing and Deep Learning to create a Convolutional Neural Network (CNN) modal that detects the presence of a tumor in an MRI Image. Trained and fine tuned the model based on performance evaluation on the test images.",
+    "technologies": "PC (Compute), OpenCV, Keras and TensorFlow (Frameworks) and Python (Programming Language)"
+  },
+  {
+    "title": "Incorporated ML Algoithms, Data Analysis on Banking Customer data to predict Customer Churn Rate",
+    "desc": "",
+    "technologies": "PC and Jupyter Notebook (Compute), Pandas, NumPy, Keras and TensorFlow (Frameworks) and Python (Programming Language)"
+  },
+  {
+    "title": "Wideband Speech Codec Implementation",
+    "desc": "",
+    "technologies": "MATLAB and Windows OS with sample Speech dataset"
+  },
+  {
+    "title": "Interview and Employee Onboarding System",
+    "desc": "",
+    "technologies": "React, Redux, Saga, Bootstrap and Axios(Frontend); Microsoft .Net Web-API and SQL Server (Backend)"
+  },
+  {
+    "title": "Sports Live Score Web App",
+    "desc": "",
+    "technologies": "React, Material UI, NodeJS and ExpressJS (MERN stack)"
+  },
+  {
+    "title": "Personal Food Log Mobile App with Reminders",
+    "desc": "",
+    "technologies": "React-Native, Redux, Axios (Frontend); NodeJS and ExpressJS (Backend)"
+  },
+  {
+    "title": "Customizable Reminders App",
+    "desc": "",
+    "technologies": "Angular (Frontend) and Java Spring Framework (Backend)"
+  }
+]
