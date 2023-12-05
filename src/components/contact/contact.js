@@ -1,19 +1,15 @@
 import React from 'react';
-import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+import { FiMapPin, FiMail } from 'react-icons/fi';
 import FormInput from '../common/formInput';
 
 const contacts = [
   {
-    name: 'Toronto, Ontario Canada',
+    name: 'Toronto, Canada',
     icon: <FiMapPin />,
   },
   {
     name: 'swamynathan.radhakrishnan@gmail.com',
     icon: <FiMail />,
-  },
-  {
-    name: '613 261 1495',
-    icon: <FiPhone />,
   },
 ];
 
@@ -21,7 +17,7 @@ const Contact = () => {
   return (
     <section className="bg-primary text-white px-5 py-20" id="contact">
       <div className='container mx-auto grid md:grid-cols-2 items-center md:justify-between'>
-        <div className='contact-intro-section'>
+        <div className='xs:max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-screen-xl contact-intro-section'>
           <div className='contact-intro'>
             <h2 className='text-4xl font-bold mb-5 border-b-[5px] w-[215px] border-yellow-300 pb-2'>
               Contact me
@@ -54,7 +50,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact-form">
+        <div className="contact-form xs:max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-screen-xl">
           <div className="leading-loose">
             <form
               onSubmit={(e) => {

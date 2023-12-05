@@ -3,7 +3,7 @@ import experienceData from '../../experience.json';
 
 const About = () => {
   return (
-    <section className="bg-primary text-white px-5 py-5" id="about">
+    <section className="bg-primary text-white px-5 py-5 min-h-screen" id="about">
       <div className='container mx-auto'>
         <div className='about-info'>
           <h2 className='text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-yellow-300 pb-2'>
@@ -46,55 +46,57 @@ const About = () => {
           </div>
 
           <div className='about-skills flex flex-wrap justify-items-auto items-stretch'>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Programming Languages</h5>
-              <p className="font-normal">C#, JavaScript, TypeScript, Java, SQL, C++</p>
+            <p className='text-2xl font-bold inline border-b-4 border-yellow-300 text-center '>Skills</p>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>JavaScript and TypeScript</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>React</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>Angular</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>NodeJS (MEAN & MERN Stacks)</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>.NET Framework (C#)</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>Java Spring Boot</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>HTML</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>CSS (SCSS & SASS)</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>Mongodb</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>MySQL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>MS SQL Server</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>DynamoDB, S3, RDS & ElastiCache</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>AWS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>Azure</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>RESTful, RPC, GraphQL APIs</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 hover:text-[yellow] hover:border-[yellow]'>
+                <p className='my-4'>Docker and Kubernetes</p>
+              </div>
             </div>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Cloud Providers</h5>
-              <p className="font-normal">Azure (Function Apps, App Service, CosmosDB, Event hub, Event Grid, App Insights)</p>
-              <p className="font-normal">AWS (Lambda, ECS, Fargate, ECR, API Gateway, SQS, SNS, DynamoDB, Cloudwatch, ElastiCache, StepFunctions)</p>
-            </div>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Frameworks</h5>
-              <ul className="font-normal">
-                <li>.NET Framework (.NET Core, .Net Web-API, .NET MVC)</li>
-                <li>React (React, Redux, Redux-Saga, Axios, Webpack, Babel)</li>
-                <li>Java (Spring Boot, J2EE, JSP)</li>
-                <li>NodeJS, VueJS, Angular, AngularJS,</li>
-                <li>Apollo GraphQL</li>
-              </ul>
-            </div>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Testing Frameworks</h5>
-              <p className="font-normal">NUnit, JUnit, Jest, Jasmine, Selenium</p>
-            </div>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Databases</h5>
-              <p className="font-normal">AWS DynamoDB, AWS RDS, Azure Cosmos, Microsoft SQL Server, Oracle, MySQL, PostGreSQL</p>
-            </div>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">CI/CD and DevOps</h5>
-              <p className="font-normal">AWS CDK, AWS CodePipeline, AWS CodeCommit, Terraform, Azure DevOps</p>
-            </div>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Data Analysis and Machine Learning</h5>
-              <p className="font-normal">NumPy, Pandas, Scikit-Learn, Keras, TensorFlow, OpenCV</p>
-            </div>
-
-            <div className="flex flex-col max-w-xs p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
-              <h5 className="mb-2 text-2xl font-bold tracking-tight">Tools and Standards</h5>
-              <p className="font-normal">Docker, Git, Microservices (RESTful, RPC, GraphQL APIs), Postman, OData</p>
-            </div>
-
           </div>
 
         </div>

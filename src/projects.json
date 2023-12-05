@@ -1,6 +1,6 @@
 [
   {
-    "title": "Vision and Image processing module in a Hostile Environment Navigation Robot",
+    "title": "Vision and Image processing in Hostile Environment Navigation Robot",
     "desc": "Hostile Environment Navigation Robot is intended to be used on emergency and endangering locations for quick visualization, situation awareness and decision making. Designing and developing the vision module was my primary responsibility in group project pursued at the University of Ottawa. Implemented features such as Obstacle detection and Maneuvering, Object Detection using customized pre-trained ML/DL models, Camera Calibration and distance calculation etc.",
     "technologies": "RaspberryPi (Compute), OpenCV(Framework) and Python (Programming Language) "
   },
@@ -10,33 +10,33 @@
     "technologies": "PC (Compute), OpenCV, Keras and TensorFlow (Frameworks) and Python (Programming Language)"
   },
   {
-    "title": "Incorporated ML Algoithms, Data Analysis on Banking Customer data to predict Customer Churn Rate",
-    "desc": "",
+    "title": "Banking Customer Churn Rate Prediction",
+    "desc": "Evaluated performance of various ML models in predicting churn rate for Banking Customer data",
     "technologies": "PC and Jupyter Notebook (Compute), Pandas, NumPy, Keras and TensorFlow (Frameworks) and Python (Programming Language)"
   },
   {
     "title": "Wideband Speech Codec Implementation",
-    "desc": "",
+    "desc": "Using Algebraic Code Excited Linear Prediction model to Compress audio files without loss.",
     "technologies": "MATLAB and Windows OS with sample Speech dataset"
   },
   {
     "title": "Interview and Employee Onboarding System",
-    "desc": "",
+    "desc": "Full stack web application developed in .NET Framework and React for Employee onboarding",
     "technologies": "React, Redux, Saga, Bootstrap and Axios(Frontend); Microsoft .Net Web-API and SQL Server (Backend)"
   },
   {
     "title": "Sports Live Score Web App",
-    "desc": "",
+    "desc": "Responsive Front End application developed with React and Material UI to get live score alerts from football score APIs ",
     "technologies": "React, Material UI, NodeJS and ExpressJS (MERN stack)"
   },
   {
     "title": "Personal Food Log Mobile App with Reminders",
-    "desc": "",
-    "technologies": "React-Native, Redux, Axios (Frontend); NodeJS and ExpressJS (Backend)"
+    "desc": "A Mobile App that tracks calorie intake and allows users to log food consumed",
+    "technologies": "React-Native, Redux, Axios (Frontend); NodeJS and ExpressJS (Backend); AWS S3 and Amplify (Cloud)"
   },
   {
-    "title": "Customizable Reminders App",
-    "desc": "",
-    "technologies": "Angular (Frontend) and Java Spring Framework (Backend)"
+    "title": "Task Organizer App",
+    "desc": "A responsive full stack web application allowing authenticated and authorized users to create and manage tasks along with reminders",
+    "technologies": "NextJS, React, MongoDB and Vercel"
   }
 ]
