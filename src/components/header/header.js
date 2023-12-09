@@ -4,7 +4,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Header = () => {
   const [toggle, setToggle] = React.useState(false);
 
-  const handleToggle = () =>  setToggle(!toggle);
+  const handleToggle = () => setToggle(!toggle);
   return (
     <header className='flex justify-end px-5 py-2 bg-primary'>
       <nav className='hidden md:block'>
@@ -19,13 +19,14 @@ const Header = () => {
             <a href='/#contact'>Contact</a>
           </li>
           <li>
-            <a href='#resume -link' target='_blank' rel='noreferrer'>Resume</a>
+            <a href={process.env.PUBLIC_URL + "/Radhakrishnan.pdf"}
+              download={"Radhakrishnan.pdf"} target='_blank' rel='noreferrer'>Resume</a>
           </li>
         </ul>
       </nav>
-      <nav className={!toggle ? 'mobile-nav left-[-100%]': 'mobile-nav left-0'}>
+      <nav className={!toggle ? 'mobile-nav left-[-100%]' : 'mobile-nav left-0'}>
         <ul className='flex flex-col'>
-        <li>
+          <li>
             <a href='/#about'>About</a>
           </li>
           <li>

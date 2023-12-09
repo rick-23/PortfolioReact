@@ -18,7 +18,7 @@ const Projects = () => (
     <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
       {projects.map((project, i) => {
         return (
-          <div className="flex flex-col xs:max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-screen-xl p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
+          <div key={i} className="flex flex-col xs:max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-screen-xl p-6 bg-primary border border-gray-200 m-3 rounded-lg hover:text-[yellow] hover:border-[yellow]">
             <h5 className="mb-2 text-2xl font-bold tracking-tight">{project.title}</h5>
             <p className="font-normal mb-2">{project.desc}</p>
             <p className="font-light mb-2">Tech stack: {project.technologies}</p>

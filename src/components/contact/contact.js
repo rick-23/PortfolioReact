@@ -35,8 +35,8 @@ const Contact = () => {
                 Contact details
               </h2>
               <ul className="font-general-regular">
-                {contacts.map((contact) => (
-                  <li className="flex ">
+                {contacts.map((contact, i) => (
+                  <li key={i} className="flex ">
                     <i className="text-2xl text-gray-500 mr-4">
                       {contact.icon}
                     </i>

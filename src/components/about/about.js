@@ -22,8 +22,8 @@ const About = () => {
         <div className='grid grid-cols-2 items-center justify-items-auto'>
           <div className='about-panel1 '>
             <ol className="about-timeline border-l border-yellow-300">
-              {experienceData.map(exp => (
-                <li>
+              {experienceData.map((exp, i) => (
+                <li key={i}>
                   <div className="flex-start flex items-center pt-3">
                     <div
                       className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
